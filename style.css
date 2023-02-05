@@ -68,3 +68,53 @@ li{
     color: #ffdb5c;
     text-align: left;
 }
+
+/* Styling for the left side - board */
+.board{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px;
+}
+
+/* Styling for the cards */
+#dealerCards,
+#playerCards {
+    font-family:sans-serif;
+    min-height: 240px;
+}
+
+.card {
+    box-sizing: border-box;
+    width: 150px;
+    height: 214px;
+    margin: 10px;
+    float: left;
+    background-color: white;
+    background-image: url('https://www.101computing.net/wp/wp-content/uploads/deck.png');
+    background-position-x: 0px;
+    background-position-y: center;
+    background-repeat: none;
+    background-position: middle center;
+    border: 1px #555555 solid;
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 2px 3px 0px #000000;
+    box-shadow: 2px 2px 3px 0px #000000;
+}
+
+
+/* Styling for the buttons */
+button {
+    cursor: pointer;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: #46515a;
+    color: #ffdb5c;
+    font-size: large;
+    font-family: sans-serif;
+}
